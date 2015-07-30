@@ -1,0 +1,15 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+-	diff shows through the use of '+' and '-' signs , what the various changes are between the original document and the new document.    
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+-	As a programmer, we are consistently making changes to a code, trying out various algorithms and mechanisms in order to get a particular result . Version control helps us go back to a particular instance of the program when we weremore closer to the desired result than we are now, if we are currently stuck that is. Also with the code to previous versions available we can again compare and see which is more efficient.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+-	    Pros : We can reduce the number of commits, so it is easier to go through them and identify the major points at which changes have occured.
+		Cons : Sometimes, when we are very involved in the project, we can forget to make commits, and later on, after performing many changes only then realise. Makes it difficult to identify where critical changes have been made.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+-	Git, maybe more designed with keeping in mind the requirements of a project developer, involving multiple files in a single project. Hence, it allows the saving multiple files in one commit. Google Docs, on the other hand , may have a greater majority of users who work on a single file, and have files that are not dependent on the other, hence, each file is saved separately.
+
+How can you use the commands git log and git diff to view the history of files?
+-	'git log' gives us a list of all the commits we have made. In this was we can see at what all moments changes were made, and we get an idea about the history of the particular repository. Using git diff, we can explicitly see, what differences were made to a code or file between two succesive commits.
